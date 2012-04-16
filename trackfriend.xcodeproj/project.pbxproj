@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE3EE31714EA18570027BB43 /* TFEnterNumberView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3EE31614EA18570027BB43 /* TFEnterNumberView.xib */; };
+		DE3EE31F14EA22660027BB43 /* TFMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3EE31D14EA22650027BB43 /* TFMapView.m */; };
+		DE3EE32014EA22660027BB43 /* TFMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3EE31E14EA22650027BB43 /* TFMapView.xib */; };
+		DE3EE32314EA24E40027BB43 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3EE32214EA24E40027BB43 /* MapKit.framework */; };
+		DE3EE32714EA2ACB0027BB43 /* satellite_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE3EE32614EA2ACB0027BB43 /* satellite_icon.png */; };
+		DE3EE32E14EAF53E0027BB43 /* TZGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3EE32D14EAF53E0027BB43 /* TZGradientButton.m */; };
+		DE3EE33914EAF9BE0027BB43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3EE33814EAF9BE0027BB43 /* QuartzCore.framework */; };
+		DE3EE33D14EB15BB0027BB43 /* TZPersonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3EE33B14EB15B90027BB43 /* TZPersonViewCell.m */; };
+		DE3EE33E14EB15BB0027BB43 /* TZPersonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3EE33C14EB15BA0027BB43 /* TZPersonViewCell.xib */; };
+		DE3EE34614EB18540027BB43 /* TFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3EE34414EB18530027BB43 /* TFTableView.m */; };
+		DE3EE34714EB18540027BB43 /* TFTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3EE34514EB18540027BB43 /* TFTableView.xib */; };
+		DE51B7F214EE0B2900534FB9 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE51B7F114EE0B2900534FB9 /* settings_icon.png */; };
+		DE51B7F414EE29B500534FB9 /* settings_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE51B7F314EE29B500534FB9 /* settings_bg@2x.jpg */; };
+		DE51B7F614EE29DE00534FB9 /* settings_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE51B7F514EE29DE00534FB9 /* settings_bg.jpg */; };
+		DE51B7F914EE29F200534FB9 /* scan_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE51B7F714EE29F200534FB9 /* scan_bg.jpg */; };
+		DE51B7FA14EE29F200534FB9 /* scan_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE51B7F814EE29F200534FB9 /* scan_bg@2x.jpg */; };
+		DE51B7FC14EE310B00534FB9 /* nav_bar.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE51B7FB14EE310B00534FB9 /* nav_bar.gif */; };
+		DE51B7FF14EF579C00534FB9 /* TZMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE51B7FE14EF579C00534FB9 /* TZMapAnnotation.m */; };
+		DE51B80614EF5D7300534FB9 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = DE51B80514EF5D7200534FB9 /* Place.m */; };
+		DE51B80A14EF5DB400534FB9 /* pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = DE51B80814EF5DB400534FB9 /* pin_shadow.png */; };
+		DE51B80C14EF5FB200534FB9 /* pin_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DE51B80B14EF5FB200534FB9 /* pin_4.png */; };
+		DE51B80E14EF602300534FB9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE51B80D14EF602300534FB9 /* CoreLocation.framework */; };
+		DE51B81C14EF86FB00534FB9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE51B81B14EF86FB00534FB9 /* Default.png */; };
+		DE51B82214F023D200534FB9 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE51B82114F023D200534FB9 /* icon@2x.png */; };
+		DE51B82414F023D800534FB9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE51B82314F023D700534FB9 /* icon.png */; };
+		DE6FDB271517A4C400226AA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6FDB261517A4C400226AA2 /* UIKit.framework */; };
+		DE6FDB291517A4C400226AA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6FDB281517A4C400226AA2 /* Foundation.framework */; };
+		DE6FDB2B1517A4C400226AA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6FDB2A1517A4C400226AA2 /* CoreGraphics.framework */; };
+		DE6FDB311517A4C400226AA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE6FDB2F1517A4C400226AA2 /* InfoPlist.strings */; };
+		DE6FDB331517A4C400226AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6FDB321517A4C400226AA2 /* main.m */; };
+		DE6FDB371517A4C500226AA2 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6FDB361517A4C500226AA2 /* TFAppDelegate.m */; };
+		DE6FDB401517A4ED00226AA2 /* TFRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6FDB3E1517A4ED00226AA2 /* TFRootView.m */; };
+		DE6FDB411517A4ED00226AA2 /* TFRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6FDB3F1517A4ED00226AA2 /* TFRootView.xib */; };
+		DE6FDB511517B26000226AA2 /* TFEnterNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6FDB4F1517B26000226AA2 /* TFEnterNumberView.m */; };
+		DE6FDB561517B2EF00226AA2 /* TFPersonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6FDB551517B2EF00226AA2 /* TFPersonClass.m */; };
+		DE6FDB5C1517B31B00226AA2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6FDB5B1517B31B00226AA2 /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE3EE31614EA18570027BB43 /* TFEnterNumberView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFEnterNumberView.xib; sourceTree = "<group>"; };
+		DE3EE31C14EA22650027BB43 /* TFMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMapView.h; sourceTree = "<group>"; };
+		DE3EE31D14EA22650027BB43 /* TFMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMapView.m; sourceTree = "<group>"; };
+		DE3EE31E14EA22650027BB43 /* TFMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFMapView.xib; sourceTree = "<group>"; };
+		DE3EE32214EA24E40027BB43 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DE3EE32614EA2ACB0027BB43 /* satellite_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satellite_icon.png; sourceTree = "<group>"; };
+		DE3EE32C14EAF53E0027BB43 /* TZGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZGradientButton.h; path = ../../../xcode_shared_pkg/classes/TZGradientButton.h; sourceTree = "<group>"; };
+		DE3EE32D14EAF53E0027BB43 /* TZGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZGradientButton.m; path = ../../../xcode_shared_pkg/classes/TZGradientButton.m; sourceTree = "<group>"; };
+		DE3EE33814EAF9BE0027BB43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DE3EE33A14EB15B90027BB43 /* TZPersonViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZPersonViewCell.h; path = ../../../xcode_shared_pkg/classes/TZPersonViewCell.h; sourceTree = "<group>"; };
+		DE3EE33B14EB15B90027BB43 /* TZPersonViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZPersonViewCell.m; path = ../../../xcode_shared_pkg/classes/TZPersonViewCell.m; sourceTree = "<group>"; };
+		DE3EE33C14EB15BA0027BB43 /* TZPersonViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TZPersonViewCell.xib; path = ../../../xcode_shared_pkg/classes/TZPersonViewCell.xib; sourceTree = "<group>"; };
+		DE3EE34314EB18520027BB43 /* TFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTableView.h; sourceTree = "<group>"; };
+		DE3EE34414EB18530027BB43 /* TFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTableView.m; sourceTree = "<group>"; };
+		DE3EE34514EB18540027BB43 /* TFTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFTableView.xib; sourceTree = "<group>"; };
+		DE51B7F114EE0B2900534FB9 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon.png; sourceTree = "<group>"; };
+		DE51B7F314EE29B500534FB9 /* settings_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "settings_bg@2x.jpg"; sourceTree = "<group>"; };
+		DE51B7F514EE29DE00534FB9 /* settings_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = settings_bg.jpg; sourceTree = "<group>"; };
+		DE51B7F714EE29F200534FB9 /* scan_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scan_bg.jpg; sourceTree = "<group>"; };
+		DE51B7F814EE29F200534FB9 /* scan_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scan_bg@2x.jpg"; sourceTree = "<group>"; };
+		DE51B7FB14EE310B00534FB9 /* nav_bar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nav_bar.gif; sourceTree = "<group>"; };
+		DE51B7FD14EF579C00534FB9 /* TZMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZMapAnnotation.h; path = ../../../xcode_shared_pkg/classes/TZMapAnnotation.h; sourceTree = "<group>"; };
+		DE51B7FE14EF579C00534FB9 /* TZMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZMapAnnotation.m; path = ../../../xcode_shared_pkg/classes/TZMapAnnotation.m; sourceTree = "<group>"; };
+		DE51B80414EF5D7200534FB9 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = ../../../xcode_shared_pkg/classes/Place.h; sourceTree = "<group>"; };
+		DE51B80514EF5D7200534FB9 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = ../../../xcode_shared_pkg/classes/Place.m; sourceTree = "<group>"; };
+		DE51B80814EF5DB400534FB9 /* pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin_shadow.png; path = ../../../xcode_shared_pkg/icons/pin_shadow.png; sourceTree = "<group>"; };
+		DE51B80B14EF5FB200534FB9 /* pin_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin_4.png; path = ../../../xcode_shared_pkg/icons/pin_4.png; sourceTree = "<group>"; };
+		DE51B80D14EF602300534FB9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DE51B81B14EF86FB00534FB9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE51B82114F023D200534FB9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		DE51B82314F023D700534FB9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DE6FDB221517A4C400226AA2 /* People Locate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People Locate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6FDB261517A4C400226AA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE6FDB281517A4C400226AA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE6FDB2A1517A4C400226AA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE6FDB2E1517A4C400226AA2 /* trackfriend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "trackfriend-Info.plist"; sourceTree = "<group>"; };
+		DE6FDB301517A4C400226AA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE6FDB321517A4C400226AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE6FDB341517A4C400226AA2 /* trackfriend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "trackfriend-Prefix.pch"; sourceTree = "<group>"; };
+		DE6FDB351517A4C500226AA2 /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		DE6FDB361517A4C500226AA2 /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		DE6FDB3D1517A4ED00226AA2 /* TFRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFRootView.h; sourceTree = "<group>"; };
+		DE6FDB3E1517A4ED00226AA2 /* TFRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFRootView.m; sourceTree = "<group>"; };
+		DE6FDB3F1517A4ED00226AA2 /* TFRootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFRootView.xib; sourceTree = "<group>"; };
+		DE6FDB4E1517B26000226AA2 /* TFEnterNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFEnterNumberView.h; sourceTree = "<group>"; };
+		DE6FDB4F1517B26000226AA2 /* TFEnterNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFEnterNumberView.m; sourceTree = "<group>"; };
+		DE6FDB541517B2EF00226AA2 /* TFPersonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPersonClass.h; sourceTree = "<group>"; };
+		DE6FDB551517B2EF00226AA2 /* TFPersonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPersonClass.m; sourceTree = "<group>"; };
+		DE6FDB5B1517B31B00226AA2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6FDB1F1517A4C400226AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE51B80E14EF602300534FB9 /* CoreLocation.framework in Frameworks */,
+				DE3EE33914EAF9BE0027BB43 /* QuartzCore.framework in Frameworks */,
+				DE3EE32314EA24E40027BB43 /* MapKit.framework in Frameworks */,
+				DE6FDB5C1517B31B00226AA2 /* AddressBook.framework in Frameworks */,
+				DE6FDB271517A4C400226AA2 /* UIKit.framework in Frameworks */,
+				DE6FDB291517A4C400226AA2 /* Foundation.framework in Frameworks */,
+				DE6FDB2B1517A4C400226AA2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE6FDB171517A4C400226AA2 = {
+			isa = PBXGroup;
+			children = (
+				DE51B82314F023D700534FB9 /* icon.png */,
+				DE51B82114F023D200534FB9 /* icon@2x.png */,
+				DE6FDB2C1517A4C400226AA2 /* trackfriend */,
+				DE6FDB251517A4C400226AA2 /* Frameworks */,
+				DE6FDB231517A4C400226AA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6FDB231517A4C400226AA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6FDB221517A4C400226AA2 /* People Locate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6FDB251517A4C400226AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE51B80D14EF602300534FB9 /* CoreLocation.framework */,
+				DE3EE33814EAF9BE0027BB43 /* QuartzCore.framework */,
+				DE3EE32214EA24E40027BB43 /* MapKit.framework */,
+				DE6FDB5B1517B31B00226AA2 /* AddressBook.framework */,
+				DE6FDB261517A4C400226AA2 /* UIKit.framework */,
+				DE6FDB281517A4C400226AA2 /* Foundation.framework */,
+				DE6FDB2A1517A4C400226AA2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6FDB2C1517A4C400226AA2 /* trackfriend */ = {
+			isa = PBXGroup;
+			children = (
+				DE6FDB351517A4C500226AA2 /* TFAppDelegate.h */,
+				DE6FDB361517A4C500226AA2 /* TFAppDelegate.m */,
+				DE6FDB3D1517A4ED00226AA2 /* TFRootView.h */,
+				DE6FDB3E1517A4ED00226AA2 /* TFRootView.m */,
+				DE6FDB3F1517A4ED00226AA2 /* TFRootView.xib */,
+				DE6FDB4E1517B26000226AA2 /* TFEnterNumberView.h */,
+				DE6FDB4F1517B26000226AA2 /* TFEnterNumberView.m */,
+				DE3EE31614EA18570027BB43 /* TFEnterNumberView.xib */,
+				DE3EE31C14EA22650027BB43 /* TFMapView.h */,
+				DE3EE31D14EA22650027BB43 /* TFMapView.m */,
+				DE3EE31E14EA22650027BB43 /* TFMapView.xib */,
+				DE3EE34314EB18520027BB43 /* TFTableView.h */,
+				DE3EE34414EB18530027BB43 /* TFTableView.m */,
+				DE3EE34514EB18540027BB43 /* TFTableView.xib */,
+				DE6FDB531517B2D000226AA2 /* Resources */,
+				DE6FDB2D1517A4C400226AA2 /* Supporting Files */,
+			);
+			path = trackfriend;
+			sourceTree = "<group>";
+		};
+		DE6FDB2D1517A4C400226AA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE51B81B14EF86FB00534FB9 /* Default.png */,
+				DE51B80B14EF5FB200534FB9 /* pin_4.png */,
+				DE51B80814EF5DB400534FB9 /* pin_shadow.png */,
+				DE51B7FB14EE310B00534FB9 /* nav_bar.gif */,
+				DE51B7F114EE0B2900534FB9 /* settings_icon.png */,
+				DE3EE32614EA2ACB0027BB43 /* satellite_icon.png */,
+				DE51B7F714EE29F200534FB9 /* scan_bg.jpg */,
+				DE51B7F814EE29F200534FB9 /* scan_bg@2x.jpg */,
+				DE51B7F514EE29DE00534FB9 /* settings_bg.jpg */,
+				DE51B7F314EE29B500534FB9 /* settings_bg@2x.jpg */,
+				DE6FDB2E1517A4C400226AA2 /* trackfriend-Info.plist */,
+				DE6FDB2F1517A4C400226AA2 /* InfoPlist.strings */,
+				DE6FDB321517A4C400226AA2 /* main.m */,
+				DE6FDB341517A4C400226AA2 /* trackfriend-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE6FDB531517B2D000226AA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE51B80414EF5D7200534FB9 /* Place.h */,
+				DE51B80514EF5D7200534FB9 /* Place.m */,
+				DE3EE33A14EB15B90027BB43 /* TZPersonViewCell.h */,
+				DE3EE33B14EB15B90027BB43 /* TZPersonViewCell.m */,
+				DE3EE33C14EB15BA0027BB43 /* TZPersonViewCell.xib */,
+				DE6FDB541517B2EF00226AA2 /* TFPersonClass.h */,
+				DE6FDB551517B2EF00226AA2 /* TFPersonClass.m */,
+				DE3EE32C14EAF53E0027BB43 /* TZGradientButton.h */,
+				DE3EE32D14EAF53E0027BB43 /* TZGradientButton.m */,
+				DE51B7FD14EF579C00534FB9 /* TZMapAnnotation.h */,
+				DE51B7FE14EF579C00534FB9 /* TZMapAnnotation.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6FDB211517A4C400226AA2 /* People Locate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6FDB3A1517A4C500226AA2 /* Build configuration list for PBXNativeTarget "People Locate" */;
+			buildPhases = (
+				DE6FDB1E1517A4C400226AA2 /* Sources */,
+				DE6FDB1F1517A4C400226AA2 /* Frameworks */,
+				DE6FDB201517A4C400226AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "People Locate";
+			productName = trackfriend;
+			productReference = DE6FDB221517A4C400226AA2 /* People Locate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6FDB191517A4C400226AA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DE6FDB1C1517A4C400226AA2 /* Build configuration list for PBXProject "trackfriend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE6FDB171517A4C400226AA2;
+			productRefGroup = DE6FDB231517A4C400226AA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6FDB211517A4C400226AA2 /* People Locate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6FDB201517A4C400226AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6FDB311517A4C400226AA2 /* InfoPlist.strings in Resources */,
+				DE6FDB411517A4ED00226AA2 /* TFRootView.xib in Resources */,
+				DE3EE31714EA18570027BB43 /* TFEnterNumberView.xib in Resources */,
+				DE3EE32014EA22660027BB43 /* TFMapView.xib in Resources */,
+				DE3EE32714EA2ACB0027BB43 /* satellite_icon.png in Resources */,
+				DE3EE33E14EB15BB0027BB43 /* TZPersonViewCell.xib in Resources */,
+				DE3EE34714EB18540027BB43 /* TFTableView.xib in Resources */,
+				DE51B7F214EE0B2900534FB9 /* settings_icon.png in Resources */,
+				DE51B7F414EE29B500534FB9 /* settings_bg@2x.jpg in Resources */,
+				DE51B7F614EE29DE00534FB9 /* settings_bg.jpg in Resources */,
+				DE51B7F914EE29F200534FB9 /* scan_bg.jpg in Resources */,
+				DE51B7FA14EE29F200534FB9 /* scan_bg@2x.jpg in Resources */,
+				DE51B7FC14EE310B00534FB9 /* nav_bar.gif in Resources */,
+				DE51B80A14EF5DB400534FB9 /* pin_shadow.png in Resources */,
+				DE51B80C14EF5FB200534FB9 /* pin_4.png in Resources */,
+				DE51B81C14EF86FB00534FB9 /* Default.png in Resources */,
+				DE51B82214F023D200534FB9 /* icon@2x.png in Resources */,
+				DE51B82414F023D800534FB9 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6FDB1E1517A4C400226AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6FDB331517A4C400226AA2 /* main.m in Sources */,
+				DE6FDB371517A4C500226AA2 /* TFAppDelegate.m in Sources */,
+				DE6FDB401517A4ED00226AA2 /* TFRootView.m in Sources */,
+				DE6FDB511517B26000226AA2 /* TFEnterNumberView.m in Sources */,
+				DE6FDB561517B2EF00226AA2 /* TFPersonClass.m in Sources */,
+				DE3EE31F14EA22660027BB43 /* TFMapView.m in Sources */,
+				DE3EE32E14EAF53E0027BB43 /* TZGradientButton.m in Sources */,
+				DE3EE33D14EB15BB0027BB43 /* TZPersonViewCell.m in Sources */,
+				DE3EE34614EB18540027BB43 /* TFTableView.m in Sources */,
+				DE51B7FF14EF579C00534FB9 /* TZMapAnnotation.m in Sources */,
+				DE51B80614EF5D7300534FB9 /* Place.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE6FDB2F1517A4C400226AA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6FDB301517A4C400226AA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE6FDB381517A4C500226AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE6FDB391517A4C500226AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6FDB3B1517A4C500226AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trackfriend/trackfriend-Prefix.pch";
+				INFOPLIST_FILE = "trackfriend/trackfriend-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE6FDB3C1517A4C500226AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trackfriend/trackfriend-Prefix.pch";
+				INFOPLIST_FILE = "trackfriend/trackfriend-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6FDB1C1517A4C400226AA2 /* Build configuration list for PBXProject "trackfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6FDB381517A4C500226AA2 /* Debug */,
+				DE6FDB391517A4C500226AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6FDB3A1517A4C500226AA2 /* Build configuration list for PBXNativeTarget "People Locate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6FDB3B1517A4C500226AA2 /* Debug */,
+				DE6FDB3C1517A4C500226AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6FDB191517A4C400226AA2 /* Project object */;
+}

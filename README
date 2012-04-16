@@ -1,0 +1,6 @@
+Trackfriend, aka People Locate
+Version 1.0:
+- Enter name, phone number, click next
+- After next, user's own location is determined on Google Map
+- 'Located' people are stored in a separate history view
+- Tapping on stored profiles in history view leads to a history map view
